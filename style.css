@@ -1,0 +1,237 @@
+ body {
+    font-family: cursive;
+    font-weight: 300;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(235, 180, 78, 0.885);
+    margin-bottom: 20px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000000;
+    margin-left: 15px;
+    transition: border-bottom 0.3s ease; 
+}
+
+nav ul li a:hover{
+    color:  #fff;
+    border-bottom: 1px solid white;
+
+} 
+
+
+ .penuntimo{
+    padding-right: 20px;
+} 
+
+ a:visited{
+    color: #06b80f;
+} 
+
+ a:active{
+    color: aqua;
+}
+
+.img-logo{
+    width: 80px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+nav ul{
+    padding-top: 30px;
+    float: right;
+}
+
+.banner{
+    max-width: 100%;
+}
+
+.featured{
+    background-color: rgba(240, 193, 107, 0.616);
+    width: 100%;
+    display: flex;
+} 
+
+ iframe{
+    margin-top: 20px;
+    padding: 2em; 
+    /* overflow-y: visible; */
+ }
+
+
+ .ft-articulo{
+    width: 30%;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 2em;
+    margin: 2em;
+    vertical-align: top;
+}
+
+article{
+    padding: 30px;
+    background-color: rgba(240, 220, 107, 0.582);
+    margin: 20px 0;
+
+}
+
+article h1{
+    border-bottom: solid thin black;
+}
+
+iframe, .ft-articulo{
+    display: inline-block;
+}
+
+.boton-container{
+    text-align: center;
+    background-color: #ea6a39;
+    margin: 0 auto;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+} 
+
+.boton-container a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.boton {
+    padding: 15px;
+}
+
+
+.boton-container:hover{
+    background-color: rgb(121, 25, 25);
+    transform: scale(1.05);
+}
+
+.boton-container a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.art-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+}
+
+.art-image img{
+    max-width: 100%;
+    margin: 0;
+}
+
+.art-cont{
+    width: 740px;
+    margin: 0;
+}
+
+h2{
+    margin: 0;
+    border-bottom: solid thin black;
+}
+
+footer{
+    background-color: rgba(235, 180, 75, 0.883);
+    clear: both;
+    color: #fff;
+    line-height: 30px;             /*  el color del footer*/
+    text-align: center;
+    padding: 45px;
+}
+
+footer a{
+    color: #fff;
+    margin-top: 10px;
+} 
+
+ /* body {
+  background-image: url("https://www.infobae.com/resizer/v2/KXI4LKHOSNE7XCK6TXH5NC5WQU.jpg?auth=46a6852ad200530df3c804e3732c4018544b9254bff2629ec08e2774960e9fc1&smart=true&width=1200&height=675&quality=85"); 
+  background-repeat: no-repeat;  
+  background-size: 500px 300px;    
+  background-size: cover;             
+  background-position: center;                         
+  background-attachment: fixed;  
+  background-color: #f5deb3;  
+
+}  */
+
+
+
+
+.bloque {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  flex-wrap: wrap;             /*si hay muchas imagenes bajan a otra fila*/
+}
+
+.bloque img {
+    max-width: 250px;  /* tamaño maximo*/
+  width: 350px;       /* tamaño de las imagenes */
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;  /* para que no se deformen las imagenes  */
+}
+
+
+/* estilo de botones */
+.imagen button {
+  display: block;       /* fuerza que quede debajo */
+  margin: 10px auto 0;  /* espacio arriba y centrado */
+  padding: 8px 15px;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.imagen button:hover {
+  background-color: #cc5200;
+}
+
+
+.fila {
+  display: flex;              /* coloca elementos en fila */
+  justify-content: space-between; /* manda uno a la izquierda y otro a la dereccha*/
+  align-items: center;        /* centra verticalmente */
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.izquierda {
+  text-align: left;
+  width: 45%;
+}
+
+.derecha {
+  text-align: right;
+  width: 45%;
+}
+
+section{
+    border-radius: 20px;
+}
+
+footer{
+    margin-top: 100px;
+    border-radius: 20px;
+}
